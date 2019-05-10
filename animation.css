@@ -1,0 +1,10 @@
+.NavigationList > ul > li:hover {
+    color: #95F794;
+}
+.NavigationList > ul > li:last-child:hover {
+    color: #fff;
+}
+.CheckOut:hover {
+    background: rgb(5, 42, 41);
+    cursor: pointer;
+}
