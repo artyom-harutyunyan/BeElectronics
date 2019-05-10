@@ -9,6 +9,7 @@
     background: url('images/electronics_home_main_bg.png');
     background-position: left bottom;
     background-repeat: no-repeat;
+    position: relative;
 }
 /* Navigation styles */
 .navigation {
@@ -96,4 +97,121 @@
 .imgLine {
     max-width: 50px;
     max-height: 8px;
+}
+.containerAbout {
+    width: 100%;
+    min-height: 600px;
+    background: url("images/electronics-home-circuit-bg1.png");
+    background-position: left top;
+    /* padding: 0px 50px; */
+    position: relative;
+    background-repeat: no-repeat;
+}
+.br_item {
+    max-width: 100%;
+    height: 500px;
+    background: #fff;
+    margin-left: 300px;
+    display: flex;
+}
+.AboutImage {
+    min-width: 450px;
+    background: url('images/electronics-home-boss2.jpg') center/cover;
+    margin-top: -70px;
+    height: 500px;
+    margin-left: -130px;
+}
+.AboutItems {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 70px;
+}
+.Repire {
+    display: block;
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #083e3d;
+    font-family: "Chakra Petch", Arial, Tahoma, sans-serif;
+}
+.aboutbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 120px;
+    border-radius: 5px;
+    background: #006358;
+    cursor: pointer;
+    padding: 10px 17px;
+}
+.aboutUs {
+    display: block;
+    color: #fff;
+}
+.AboutDescription {
+    display: flex;
+    background: #fff;
+    align-items: center;
+    margin: 40px 0px;
+}
+.Items {
+    max-width: 30%;
+    margin-right: 40px;
+}
+.IconsDirection {
+    display: block;
+    line-height: 150%;
+}
+.IconsItems {
+    margin-bottom: 15px;
+}
+.OffersContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.OffersTitle {
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+.br_1,
+.br_2,
+.br_3,
+.br_btn {
+    display: block;
+    margin-bottom: 15px;
+}
+.br_1,
+.br_3 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #47de55;
+    font-family: "Montserrat", Arial, Tahoma, sans-serif;
+}
+.br_3 {
+    color: rgb(63, 61, 61);
+}
+.br_2 {
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #083e3d;
+    font-family: "Chakra Petch", Arial, Tahoma, sans-serif;
+}
+.br_btn {
+    padding: 15px 30px;
+    background-color: #47de55;
+    border-radius: 5px;
+    color: #083e3d;
+    max-width: 200px;
+    font-family: "Montserrat", Arial, Tahoma, sans-serif;
+    cursor: pointer;
 }
