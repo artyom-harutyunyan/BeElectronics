@@ -23,8 +23,27 @@
                     <li>Blog</li>
                     <li>About</li>
                     <li>Contact</li>
+                    <li onclick="ToReg()">Registration</li>
                     <li>Buy now</li>
                 </ul>
+            </div>
+        </div>
+        <div class="regFieldContainer">
+            <div class="regField">
+                <div class="cl_m"><span class="x_close" onclick="closeMenu()">Close</span></div>
+                <form action="">
+                    <label for="name" class="labelFO">Your Name</label> <br>
+                    <input type="text" class="field" id="name"><br>
+                    <label for="surname" class="labelFO">Your Surname</label> <br>
+                    <input type="text" class="field" id="surname"><br>
+                    <label for="phone" class="labelFO">Your Phone Number</label> <br>
+                    <input type="text" class="field" id="phone"><br>
+                    <label for="password" class="labelFO">Your Password</label> <br>
+                    <input type="password" class="field" id="password"><br>
+                    <label for="repassword" class="labelFO">Repeat Your Password</label> <br>
+                    <input type="password" class="field" id="repassword">                    
+                </form>
+                <div class="btn_s"><button class="forReg">Registration</button></div>
             </div>
         </div>
         <div class="element">
@@ -118,5 +137,7 @@
         </div>
     </div>
 <script type="text/javascript" src="NavMenu.js"></script>
+<script type="text/javascript" src="registration.js"></script>
+<script type="text/javascript" src="openMenuReg.js"></script>
 </body>
 </html>
