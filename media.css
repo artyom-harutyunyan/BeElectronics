@@ -1,0 +1,476 @@
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 1000px) {
+
+}
+@media only screen and (max-width: 1000px) {
+    .NavigationList > ul {
+        display: none;
+    }
+    .br_item {
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .AboutImage {
+        display: none;
+    }
+    .Electros {
+        flex-direction: column;
+    }
+    .ElectroItems {
+        margin: 30px 0px;
+    }
+    .ArticlesElement {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .elementLside {
+        margin: 30px 0px;
+        min-width: 65%;
+    }
+    .elementRside {
+        min-width: 65%;
+    }
+}
+@media only screen and (min-width: 1501px) {
+    .container {
+        width: 100%;
+        height: 800px;
+        background: url('images/electronics_home_main_bg.png');
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    /* Navigation styles */
+    .navigation {
+        width: 100%;
+        padding: 15px 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .NavigationList > ul {
+        margin-left: 300px;
+        list-style: none;
+        display: inline-flex;
+    }
+    .NavigationList > ul > li {
+        color: #43D353;
+        margin-left: 45px;
+        font-size: 16px;
+        font-family: sans-serif;
+        cursor: pointer;
+        line-height: 60px;
+        font-weight: 100;
+        word-spacing: 150%;
+    }
+    .NavigationList > ul > li:last-child {
+        color: #fff;
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 5px 40px;
+        background-color: #083e3d;
+        transform: translateY(0);
+        transition: 0.2s;
+        border: none;
+        z-index: 100;
+    }
+    .element {
+        width: 100%;
+        padding: 200px 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .elementL {
+        max-width: 35%;
+        min-width: 34%;
+        margin: 20px 40px;
+    }
+    .wh_fi {
+        font-family: "Montserrat", Arial, Tahoma, sans-serif;
+        font-size: 15px;
+        color: #fff;
+        line-height: 170%;
+        word-spacing: 150%;
+        margin: 0px 0px 30px 0px;
+        display: block;
+    }
+    .ElectronicRepair {
+        color: #47de55;
+        font-size: 52px;
+        line-height: 70px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        font-family: "Chakra Petch", Arial, Tahoma, sans-serif;
+    }
+    .elementR {
+        max-width: 25%;
+        min-width: 20%;
+        margin: 20px 40px;
+    }
+    .CheckOut {
+        padding: 40px 30px;
+        width: 100%;
+        height: 100%;
+        background: rgb(22, 22, 22);
+        font-size: 20px;
+        color: #fff;
+        line-height: 120%;
+        word-spacing: 150%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        transition: .3s ease;
+    }
+    .imgLine {
+        max-width: 50px;
+        max-height: 8px;
+    }
+    .containerAbout {
+        width: 100%;
+        min-height: 600px;
+        background: url("images/electronics-home-circuit-bg1.png");
+        background-position: left top;
+        /* padding: 0px 50px; */
+        position: relative;
+        background-repeat: no-repeat;
+    }
+    .br_item {
+        max-width: 100%;
+        height: 500px;
+        background: #fff;
+        margin-left: 300px;
+        display: flex;
+    }
+    .AboutImage {
+        min-width: 450px;
+        background: url('images/electronics-home-boss2.jpg') center/cover;
+        margin-top: -70px;
+        height: 500px;
+        margin-left: -130px;
+    }
+    .AboutItems {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 70px;
+    }
+    .Repire {
+        display: block;
+        font-size: 34px;
+        line-height: 44px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        color: #083e3d;
+        font-family: "Chakra Petch", Arial, Tahoma, sans-serif;
+    }
+    .aboutbutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 120px;
+        border-radius: 5px;
+        background: #006358;
+        cursor: pointer;
+        padding: 10px 17px;
+    }
+    .aboutUs {
+        display: block;
+        color: #fff;
+    }
+    .AboutDescription {
+        display: flex;
+        background: #fff;
+        align-items: center;
+        margin: 40px 0px;
+    }
+    .Items {
+        max-width: 30%;
+        margin-right: 40px;
+    }
+    .IconsDirection {
+        display: block;
+        line-height: 150%;
+    }
+    .IconsItems {
+        margin-bottom: 15px;
+    }
+    .OffersContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .OffersTitle {
+        text-align: center;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .br_1,
+    .br_2,
+    .br_3,
+    .br_btn {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .br_1,
+    .br_3 {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        color: #47de55;
+        font-family: "Montserrat", Arial, Tahoma, sans-serif;
+    }
+    .br_3 {
+        color: rgb(63, 61, 61);
+    }
+    .br_2 {
+        font-size: 34px;
+        line-height: 44px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        color: #083e3d;
+        font-family: "Chakra Petch", Arial, Tahoma, sans-serif;
+    }
+    .br_btn {
+        padding: 15px 30px;
+        background-color: #47de55;
+        border-radius: 5px;
+        color: #083e3d;
+        max-width: 200px;
+        font-family: "Montserrat", Arial, Tahoma, sans-serif;
+        cursor: pointer;
+        margin-top: 25px;
+    }
+    .ElectronicsContainer {
+        width: 100%;
+        background: url('images/electronics-home-circuit-bg2.png') right;
+        background-repeat: no-repeat;
+        padding: 60px 0px;
+    }
+    .Electros {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0px;
+    }
+    .ElectroDescriptions {
+        display: block;
+        text-align: center;
+        font-size: 25px;
+        line-height: 29px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        font-family: "Chakra Petch", Arial, Tahoma, sans-serif;
+        color: #083e3d;
+        margin-top: 25px;
+    }
+    .ElectroItems {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 100px;
+    }
+    .ArticlesContainer {
+        width: 100%;
+        padding: 50px 70px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        background-color: #0d5149;
+        background-image: url(https://themes.muffingroup.com/be/electronics/wp-content/uploads/2019/01/electornics-home-section-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 70px;
+    }
+    .ArticlesTitle {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sm_title {
+        display: block;
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        color: #47de55;
+        margin-bottom: 15px;
+    }
+    .b_title {
+        display: block;
+        font-size: 34px;
+        line-height: 44px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        font-family: "Chakra Petch", Arial, Tahoma, sans-serif;
+        margin-bottom: 15px;
+        color: #fff;
+        text-align: center;
+    }
+    .ArticlesElement {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0px;
+    }
+    .elementLside {
+        min-width: 55%;
+        max-width: 60%;
+        height: 500px;
+        background: url('images/electornics-blog-featured-3-960x720.jpg') center/cover;
+    }
+    .opacityBlock {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.0);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 30px 25px;
+        font-family: sans-serif;
+        transition: .3s ease;
+        cursor: pointer;
+    }
+    .date {
+        display: block;
+        color: rgba(255,255,255,.7);
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 400;
+        letter-spacing: 0px;
+    
+    }
+    .date > a {
+        color: rgba(255,255,255,.7);
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .thisDirection {
+        display: block;
+        color: #fff;
+        font-size: 22px;
+        line-height: 25px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .elementRside {
+        max-width: 38%;
+        min-width: 36%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 35px;
+    }
+    .bl_1,
+    .bl_2 {
+        width: 100%;
+        height: 49%;
+        background: url('images/electornics-blog-featured-1-1200x675.jpg') center/cover;
+    }
+    .bl_2 {
+        margin-top: 2%;
+    }
+    .regFieldContainer {
+        width: 100%;
+        height: 100vh;
+        background: rgba(255, 255, 255, 0.5);
+        z-index: 99;
+        position: absolute;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        display: none;
+    }
+    .regField {
+        width: 450px;
+        padding: 50px;
+        box-shadow: 1px 1px 1px 1px rgb(163, 165, 165);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        border-radius: 20px;
+        margin: 200px auto;
+    }
+    .labelFO {
+        color: #083e3d;
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .field {
+        min-width: 270px;
+        min-height: 40px;
+        font-size: 30px;
+        color: #083e3d;
+    }
+    .btn_s {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 30px 0px 0px 0px;
+    }
+    .forReg {
+        width: 150px;
+        height: 40px;
+        border-radius: 7px;
+        border: none;
+        transition: .3s ease;
+        color: #083e3d;
+        font-size: 18px;
+        cursor: pointer;
+        background-image: linear-gradient(to right top, #ffffff, #f5f5f5, #ececec, #e2e2e2, #d9d9d9, #d9d9d9, #d8d8da, #d8d8da, #e0e2e4, #e9ebed, #f2f5f6, #fbffff);
+    }
+    .forReg:hover {
+        transform: scale(1.1);
+    }
+    .x_close {
+        display: block;
+        cursor: pointer;
+        font-size: 17px;
+        color: #083e3d;
+    }
+    .x_close:hover {
+        text-decoration: underline;
+        transform: scale(1.1);
+        transition: .3s ease; 
+    }
+    .cl_m {
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .LogInContainer {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to right top, #ebeeee, #ebedee, #eaeced, #eaebec, #eaeaeb, #eaeaeb, #e9e9ea, #e9e9ea, #e9e9eb, #e9eaec, #e9eaed, #e9ebee);    position: absolute;
+        z-index: 100;
+        display: none;
+    }
+    .LogInElement {
+        width: 450px;
+        margin: 300px auto;
+        padding: 50px;
+        border-radius: 20px;
+        background-image: linear-gradient(to right top, #ffffff, #fdfdff, #f9fcfe, #f6fbfd, #f2fafa, #f2faf9, #f2faf8, #f3faf7, #f5fbf9, #f7fdfb, #f9fefc, #fbfffe);
+    }
+}

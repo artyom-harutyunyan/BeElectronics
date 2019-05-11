@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+@media only screen and (max-width: 1500px) {
 .container {
     width: 100%;
     height: 800px;
@@ -437,4 +438,5 @@
     padding: 50px;
     border-radius: 20px;
     background-image: linear-gradient(to right top, #ffffff, #fdfdff, #f9fcfe, #f6fbfd, #f2fafa, #f2faf9, #f2faf8, #f3faf7, #f5fbf9, #f7fdfb, #f9fefc, #fbfffe);
+}
 }
