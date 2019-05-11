@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 .container {
     width: 100%;
@@ -246,4 +247,106 @@
     justify-content: center;
     align-items: center;
     margin: 0px 100px;
+}
+.ArticlesContainer {
+    width: 100%;
+    padding: 50px 70px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #0d5149;
+    background-image: url(https://themes.muffingroup.com/be/electronics/wp-content/uploads/2019/01/electornics-home-section-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 70px;
+}
+.ArticlesTitle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sm_title {
+    display: block;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #47de55;
+    margin-bottom: 15px;
+}
+.b_title {
+    display: block;
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    font-family: "Chakra Petch", Arial, Tahoma, sans-serif;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: center;
+}
+.ArticlesElement {
+    width: 100%;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    padding: 10px 0px;
+}
+.elementLside {
+    width: 60%;
+    height: 500px;
+    background: url('images/electornics-blog-featured-3-960x720.jpg') center/cover;
+}
+.opacityBlock {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.0);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px 25px;
+    font-family: sans-serif;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.date {
+    display: block;
+    color: rgba(255,255,255,.7);
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0px;
+
+}
+.date > a {
+    color: rgba(255,255,255,.7);
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.thisDirection {
+    display: block;
+    color: #fff;
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.elementRside {
+    width: 38%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+.bl_1,
+.bl_2 {
+    width: 100%;
+    height: 49%;
+    background: url('images/electornics-blog-featured-1-1200x675.jpg') center/cover;
+}
+.bl_2 {
+    margin-top: 2%;
 }

@@ -8,3 +8,24 @@
     background: rgb(5, 42, 41);
     cursor: pointer;
 }
+.opacityBlock:hover {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 40px 25px;
+}
+.opacityBlock {
+    position: relative;
+}
+.opacityBlock::before {
+    content: '';
+    width: 0px;
+    height: 4px;
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    background: #47de55;
+    transition: .6s ease-out;
+    border-radius: 10%;
+}
+.opacityBlock:hover::before {
+    width: 200px;
+}
