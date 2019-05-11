@@ -424,3 +424,17 @@
     justify-content: flex-end;
     align-items: center;
 }
+.LogInContainer {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #ebeeee, #ebedee, #eaeced, #eaebec, #eaeaeb, #eaeaeb, #e9e9ea, #e9e9ea, #e9e9eb, #e9eaec, #e9eaed, #e9ebee);    position: absolute;
+    z-index: 100;
+    display: none;
+}
+.LogInElement {
+    width: 450px;
+    margin: 300px auto;
+    padding: 50px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right top, #ffffff, #fdfdff, #f9fcfe, #f6fbfd, #f2fafa, #f2faf9, #f2faf8, #f3faf7, #f5fbf9, #f7fdfb, #f9fefc, #fbfffe);
+}

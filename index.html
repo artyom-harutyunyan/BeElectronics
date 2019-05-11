@@ -22,7 +22,7 @@
                     <li>Services</li>
                     <li>Blog</li>
                     <li>About</li>
-                    <li>Contact</li>
+                    <li onclick="openLogMenu()"><span class="enter">Log In</span></li>
                     <li onclick="ToReg()">Registration</li>
                     <li>Buy now</li>
                 </ul>
@@ -44,6 +44,18 @@
                     <input type="password" class="field" id="repassword">                    
                 </form>
                 <div class="btn_s"><button class="forReg" onclick="registration()">Registration</button></div>
+            </div>
+        </div>
+        <div class="LogInContainer">
+            <div class="LogInElement">
+                <div class="cl_m"><span class="x_close" onclick="closeLogMenu()">Close</span></div>
+                <form action="">
+                    <label for="LogPhone" class="labelFO">Your Phone</label> <br>
+                    <input type="text" class="field" id="LogPhone"><br>
+                    <label for="LogPassword" class="labelFO">Your Password</label> <br>
+                     <input type="password" class="field" id="LogPassword"><br>
+                </form>
+                <div class="btn_s"><button class="forReg" onclick="checkForLogIn()">Log In</button></div>
             </div>
         </div>
         <div class="element">

@@ -26,7 +26,19 @@ function registration() {
     });
     console.log(users);
     FinishReg();
+    // checkForLogIn();
 }
 function FinishReg() {
     localStorage.setItem("User", JSON.stringify(users));
 }
+// function checkForLogIn() {
+//     var LogPhone = document.getElementById('LogPhone').value;
+//     var logPassword = document.getElementById('LogPassword').value;
+//     var CheckUserPhone = users.find(function(item) {return item.phone === LogPhone});
+//     var CheckUserPassword = users.find(function(item) {return item.password === logPassword});
+//     users.forEach((item,index) => {
+//         if (LogPhone == CheckUserPhone && logPassword == CheckUserPassword) {
+//            console.log('next');
+//         }
+//     });
+// }
