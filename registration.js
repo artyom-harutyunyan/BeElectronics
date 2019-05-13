@@ -26,10 +26,15 @@ function registration() {
     });
     console.log(users);
     FinishReg();
-    // checkForLogIn();
+    // var ForLog = document.getElementById('ForLog');
+    // if(ForLog.onclick) {
+    //     checkForLogIn();
+    // }
+    
 }
 function FinishReg() {
     localStorage.setItem("User", JSON.stringify(users));
+    InLogInUser();
 }
 // function checkForLogIn() {
 //     var LogPhone = document.getElementById('LogPhone').value;
@@ -42,3 +47,34 @@ function FinishReg() {
 //         }
 //     });
 // }
+/*
+function InLogInUser() {
+    users.forEach((item, index) => {
+        var hearNameUser = document.getElementsByClassName('UserNameHear');
+        var ThisUser = document.createElement('span');
+        ThisUser.className = 'userName';
+        thisUser.innerHTML = item.name;
+        hearNameUser.appendChild(thisUser);
+    });
+}
+function checkForLogIn() {
+    var LogItems = [];
+    var LogPhone = document.getElementById('LogPhone').value;
+    var LogPassword = document.getElementById('LogPassword').value;
+    LogItems.push({
+        LogPhone: LogPhone,
+        LogPassword: LogPassword,
+    });
+    var ForLogPhone = users.find(function(item) {return item.phone === phone });
+    var ForLogPassword = user.find(function(item) {return item.password === password });
+    var SearchLogPhone = LogItems.find(function(item) {return item.LogPhone === LogPhone });
+    var SearchLogPassword = LogItems.find(function(item) {return item.LogPassword === LogPassword });
+    LogInDone();
+}
+function LogInDone() {
+    if (ForLogPhone == SearchLogPhone && ForLogPhone == SearchLogPassword) {
+        alert('You are Loged In');
+    }else {
+        alert('Wrong Login or Password');
+    }
+} */
